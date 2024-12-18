@@ -100,7 +100,7 @@
         height: 300px;
         overflow: hidden;
         width: 100%;
-        background-color: #0d0d0d;
+        
         
     }
     
@@ -155,6 +155,16 @@
 }
 .list-unstyled{
   text-align: center;
+}
+
+    .verified-badge1 {
+  background-color: #141414; /* Green background for Verified */
+  color: white !important;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
  
 }

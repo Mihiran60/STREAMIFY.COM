@@ -272,13 +272,13 @@ display: none;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     height: 80vh;
-    width: 310px;
+    width: auto;
     margin: 0px;
   }
 
   .movies{
     
-    height: 190px;
+    height: auto;
     display: grid;
     grid-template-columns: 130px 130px 130px 150px 150px 150px 150px 150px 150px 150px;
     gap: 20px;
@@ -289,7 +289,7 @@ display: none;
   .next-list{
     
     
-      height: 190px;
+      height: auto;
       display: grid;
       grid-template-columns: 130px 130px 130px 150px 150px 150px 150px 150px 150px 150px;
       gap: 20px;

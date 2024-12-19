@@ -334,6 +334,35 @@ body {
     gap: 5px;
 }
 
+
+.verified-badge1 {
+    background-color: #141414; /* Green background for Verified */
+    color: white;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Form Modal */
 .form-modal {
     position: fixed;
@@ -674,7 +703,7 @@ input[type="text"] {
     height: 500px;
     overflow: hidden;
     width: 100%;
-    
+   background-color: #000;
     
 }
 
@@ -718,7 +747,7 @@ input[type="text"] {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    z-index: 10000;
+    z-index: 50000;
 }
 
 .primary{
@@ -779,19 +808,18 @@ input[type="text"] {
     padding: 50px;
 }
 
-.verified-badge1 {
-    background-color: #141414; /* Green background for Verified */
-    color: white;
-    padding: 3px 10px;
-    border-radius: 12px;
-    font-size: 14px;
+
+
+.cardlink{
+    text-decoration: none;
+    color: #141414;
+}
+
+.cardlink:hover{
     font-weight: bold;
-    text-transform: uppercase;
-  }
+    color: #207895;
 
-
-
-
+}
 
 
 
@@ -958,3 +986,19 @@ input[type="text"] {
     font-size: 12px;
     color: white;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -97,22 +97,25 @@
 
       .apple-tv-section {
        
-        height: 300px;
+      background-color: white;
+        position: relative;
+        height: 400px;
         overflow: hidden;
         width: 100%;
-        
-        
+       
     }
     
     .apple-tv-section video {
         position: absolute;
-        top: 0;
+        top: 0px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
-        height: 300px;
+        height: 400px;
         object-fit: cover;
         z-index: 1000;
+      
+        
     }
     
     .apple-tv-content h2{
@@ -156,8 +159,10 @@
 .list-unstyled{
   text-align: center;
 }
+ 
 
-    .verified-badge1 {
+
+.verified-badge1 {
   background-color: #141414; /* Green background for Verified */
   color: white !important;
   padding: 3px 10px;
@@ -166,5 +171,18 @@
   font-weight: bold;
   text-transform: uppercase;
 }
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -283,7 +283,7 @@ display: none;
     grid-template-columns: 130px 130px 130px 150px 150px 150px 150px 150px 150px 150px;
     gap: 20px;
     overflow-x: scroll;
-    padding: 20px;
+    padding: 10px;
   }
   
   .next-list{
@@ -294,7 +294,7 @@ display: none;
       grid-template-columns: 130px 130px 130px 150px 150px 150px 150px 150px 150px 150px;
       gap: 20px;
       overflow-x: scroll;
-      padding: 20px;
+      padding: 10px;
     
     
   }
